@@ -1,0 +1,123 @@
+<!--
+
+  This page helps the user become familiar with constellation patterns by playing a memory matching game.
+
+-->
+
+<!DOCTYPE HTML>
+
+<html manifest = "cache.appcache">
+  <head>
+
+    <link rel = "shortcut icon" href="./customizedIcon.ico">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Matching Constellation Game</title>
+    <meta name="description" content="Quizy jquery plugin for creating memory game (concentration gaim, pairs game)">
+    <meta name="keywords" content="jquery plugin, memory game, concentration, pairs game, javascript, jquery" />
+
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/quizymemorygame.css" />
+
+    <!-- FontAwesome - http://fortawesome.github.io/Font-Awesome/ -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+
+    <!-- jQueryMobileCSS - original without styling -->
+    <link rel="stylesheet" href="css/jquerymobile.css" />
+
+    <!-- nativeDroid core CSS -->
+    <link rel="stylesheet" href="css/jquerymobile.nativedroid.css" />
+
+    <!-- nativeDroid: Light/Dark -->
+    <link rel="stylesheet" href="css/jquerymobile.nativedroid.dark.css"  id='jQMnDTheme' />
+
+    <!-- nativeDroid: Color Schemes -->
+    <link rel="stylesheet" href="css/jquerymobile.nativedroid.color.green.css" id='jQMnDColor' />
+    
+    <!-- jQuery / jQueryMobile Scripts -->
+    <script src="js/jquery-1.7.1.min.js"</script>
+    <script src="js/jQuery-v1.7.1.js"></script>
+    <script src="js/jquery-ui-1.8.17.custom.min.js"></script>
+    <script src="js/jquery.flip.min.js"></script>
+    <script src="js/jquery.quizymemorygame.js"></script>
+    <script src="js/jquery.mobile-1.3.1.min.js"></script>
+
+    <style>
+      body{
+        font-family:Helvetica, Arial, Verdana;
+        text-align: center;
+      }
+            
+      #tutorial-memorygame{
+        margin:auto;
+        width:780px;
+      }
+            
+      .text-style1{
+        font-size:14pt;
+        color:#56605f;
+        font-weight:normal;
+        text-shadow: 1px 1px 1px #fff;
+        margin:0;
+        line-height:24pt;
+      }
+            
+      .reset-button{
+        margin: 0 0 1.5em 0;
+      }      
+    </style>
+
+  </head>
+
+  <body style="background:rgb(38, 43, 50)">
+
+    <div data-role="page" data-theme='b'>
+
+      <div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme='b'>
+            <a href="index.html" data-ajax="false"><i class='icon-arrow-left'></i></a>
+            <h1>Interactive Learning <i class='icon-cog'></i></h1>
+      </div>
+      
+      <div data-role="content"> 
+          <br></br>
+
+          <h2>Constellation Memory Game</h2>
+          <h3>The object of the game is to turn over pairs of matching cards.</h3>
+          <h3>Be careful! Your time and number of tries will be recorded ... </h3>
+      
+          <div class="reset-button">
+            <a id="restart" href="">Reset game</a>
+          </div>
+    
+          <div id="tutorial-memorygame" class="quizy-memorygame">
+          <ul>
+              <li class="match1"><img src="css/img/auriga.png" alt = "Auriga" width="150px" height="150px" border="5"></li>
+              <li class="match2"><img src="css/img/orion.png" alt="Orion" width="150px" height="150px" border="5"></li>
+              <li class="match3"><img src="css/img/canisMinor.png" alt="Canis Minor" width="150px" height="150px" border="5"></li>
+              <li class="match4"><img src="css/img/delphinus.png" alt="Delphinus" width="150px" height="150px" border="5"></li>
+              <li class="match5"><img src="css/img/andromeda.png" alt="Andromeda" width="150px" height="150px" border="5"></li>
+              <li class="match6"><img src="css/img/canisMajor.png" alt="Canis Major" width="150px" height="150px" border="5"></li>
+
+              <li class="match1"><img src="css/img/auriga.png" alt="Auriga" width="150px" height="150px" border="5"></li>              
+              <li class="match2"><img src="css/img/orion.png" alt="Orion" width="150px" height="150px" border="5"></li>
+              <li class="match3"><img src="css/img/canisMinor.png" alt="Canis Minor" width="150px" height="150px" border="5"></li>
+              <li class="match4"><img src="css/img/delphinus.png" alt="Delphinus" width="150px" height="150px" border="5"></li>
+              <li class="match5"><img src="css/img/andromeda.png" alt="Andromeda" width="150px" height="150px" border="5"></li>
+              <li class="match6"><img src="css/img/canisMajor.png" alt="Canis Major" width="150px" height="150px" border="5"></li>
+          </ul>
+      </div>      
+    </div>
+
+    <script>
+    
+      var quizyParams = {itemWidth: 156, itemHeight: 156, itemsMargin:40, colCount:4, animType:'flip' , flipAnim:'tb', animSpeed:250, resultIcons:true, randomised:true }; 
+      $('#tutorial-memorygame').quizyMemoryGame(quizyParams);
+      $('#restart').click(function(){
+        $('#tutorial-memorygame').quizyMemoryGame('restart');
+        return false;
+      });
+
+    </script>
+  </body>
+</html>

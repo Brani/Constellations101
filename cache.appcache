@@ -1,0 +1,74 @@
+CACHE MANIFEST
+
+#version 1.0 12-16-2014
+
+CACHE:
+
+#internal HTML documents
+http://acc6.its.brooklyn.cuny.edu/~robicohe/index.html
+http://acc6.its.brooklyn.cuny.edu/~robicohe/about.html
+http://acc6.its.brooklyn.cuny.edu/~robicohe/credits.html
+http://acc6.its.brooklyn.cuny.edu/~robicohe/furtherLearning.html
+http://acc6.its.brooklyn.cuny.edu/~robicohe/interactiveLearning.html
+http://acc6.its.brooklyn.cuny.edu/~robicohe/introductionToConstellations.html
+http://acc6.its.brooklyn.cuny.edu/~robicohe/quiz.html
+
+#images
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/img/andromeda.png
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/img/auriga.png
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/img/canisMajor.png
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/img/canisMinor.png
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/img/circuit.jpg
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/img/constellationPatterns.png
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/img/delphinus
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/img/hydraCluster.gif
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/img/mg-clickicon.png
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/img/mg-mcard.png
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/img/mg-timeicon.png
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/img/nasa.jpg
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/img/ollie.jpg
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/img/orion
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/img/quizy-mg-item-top.png
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/img/quizy-mg-notif-neg.png
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/img/quizy-mg-notif-pos.png
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/img/sagittarius.png
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/img/twinkle.wav
+
+#style sheets
+
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/jquerymobile.nativedroid.color.green.css
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/jquerymobile.nativedroid.dark.css
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/jquerymobile.nativedroid.css
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/jquerymobile.css
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/quizymemorygame.css
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/master.css
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/reset.css
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/slickQuiz.css
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/font-awesome.min.css
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/font/fontawesome-webfont.eot
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/font/fontawesome-webfont.svg
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/font/fontawesome-webfont.ttf
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/font/fontawesome-webfont.woff
+http://acc6.its.brooklyn.cuny.edu/~robicohe/css/font/FontAwesome.otf
+http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700
+
+#style sheet images
+data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==
+
+#javascript files
+
+http://acc6.its.brooklyn.cuny.edu/~robicohe/js/jquery-1.7.1.min.js
+http://acc6.its.brooklyn.cuny.edu/~robicohe/js/jquery-1.9.1.min.js
+http://acc6.its.brooklyn.cuny.edu/~robicohe/js/jquery-ui-1.8.17.custom.min.js
+http://acc6.its.brooklyn.cuny.edu/~robicohe/js/jQuery-v1.7.1.js
+http://acc6.its.brooklyn.cuny.edu/~robicohe/js/jquery.flip.min.js
+http://acc6.its.brooklyn.cuny.edu/~robicohe/js/jquery.mobile-1.3.1.min.js
+http://acc6.its.brooklyn.cuny.edu/~robicohe/js/jquery.quizymemorygame.js
+http://acc6.its.brooklyn.cuny.edu/~robicohe/js/jquery.quizymemorygame.min.js
+http://acc6.its.brooklyn.cuny.edu/~robicohe/js/master.js
+http://acc6.its.brooklyn.cuny.edu/~robicohe/js/nativedroid.script.js
+http://acc6.its.brooklyn.cuny.edu/~robicohe/js/slickQuiz-config.js
+http://acc6.its.brooklyn.cuny.edu/~robicohe/js/slickQuiz.js
+
+NETWORK:
+*

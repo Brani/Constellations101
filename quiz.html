@@ -1,0 +1,73 @@
+<!--
+
+    This page quizzes the user on information provided throughout the app and gives a running score at the end.
+
+-->
+
+<!DOCTYPE html>
+
+<html manifest = "cache.appcache">
+    <head>
+
+        <link rel = "shortcut icon" href="./customizedIcon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <title>QuizMe!</title>
+
+        <!-- FontAwesome - http://fortawesome.github.io/Font-Awesome/ -->
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+
+        <!-- jQueryMobileCSS - original without styling -->
+        <link rel="stylesheet" href="css/jquerymobile.css" />
+
+        <!-- nativeDroid core CSS -->
+        <link rel="stylesheet" href="css/jquerymobile.nativedroid.css" />
+
+        <!-- nativeDroid: Light/Dark -->
+        <link rel="stylesheet" href="css/jquerymobile.nativedroid.dark.css"  id='jQMnDTheme' />
+
+        <!-- nativeDroid: Color Schemes -->
+        <link rel="stylesheet" href="css/jquerymobile.nativedroid.color.green.css" id='jQMnDColor' />
+
+        <!-- jQuery / jQueryMobile Scripts -->
+        <script src="js/jquery-1.9.1.min.js"></script>      
+        <script src="js/jquery.mobile-1.3.1.min.js"></script>
+        <script src="js/slickQuiz-config.js"></script>
+        <script src="js/slickQuiz.js"></script>
+        <script src="js/master.js"></script>
+         
+        <link href="css/reset.css" media="screen" rel="stylesheet" type="text/css">
+        <link href="css/slickQuiz.css" media="screen" rel="stylesheet" type="text/css">
+        <link href="css/master.css" media="screen" rel="stylesheet" type="text/css">       
+    </head>
+
+    <body>
+
+        <div data-role= "page" data-theme='b'>
+
+            <div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme='b'>
+                <a href="./index.html" data-ajax="false"><i class='icon-arrow-left'></i></a>
+                <h1><font color="white">QuizMe! <i class='icon-trophy'></i></font></h1>                
+            </div>
+            <br></br>
+            <div class="inset" id="slickQuiz">
+                <h1 class="quizName"><!-- where the quiz name goes --></h1>
+                
+                <div class="quizArea">
+                    <div class="quizHeader">
+                        <!-- where the quiz main copy goes -->
+                        <a class="button startQuiz" href="#">Get Started!</a>
+                    </div>
+                    <!-- where the quiz gets built -->
+                </div>
+
+                <div class="quizResults">
+                    <h3 class="quizScore">You Scored: <span><!-- where the quiz score goes --></span></h3>
+                    <h3 class="quizLevel"><strong>Ranking:</strong> <span><!-- where the quiz ranking level goes --></span></h3>
+                    <div class="quizResultsCopy">
+                        <!-- where the quiz result copy goes -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
